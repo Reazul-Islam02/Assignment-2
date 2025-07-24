@@ -180,7 +180,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 80px auto;
   gap: 40px;
 }
@@ -192,7 +192,7 @@
 
 .plants-image img {
   width: 100%;
-  max-width: 450px;
+  /* max-width: 450px; */
   border-radius: 0;
   display: block;
   margin: 0 auto;
@@ -201,7 +201,7 @@
 .image-logo {
   position: absolute;
   top: -120px;
-  right: -70px;
+  right: -140px;
   z-index: 0;
 }
 
@@ -214,6 +214,7 @@
 .plants-content {
   flex: 1 1 50%;
   text-align: left;
+  
 }
 
 .plants-content h2 {
@@ -262,6 +263,7 @@
   gap: 20px;
 }
 
+
 .left-column {
   width: 33%;
   display: flex;
@@ -278,6 +280,10 @@
   overflow: hidden;
   border-radius: 10px;
   background-color: #fff;
+
+  /* display: grid;
+  justify-content: center;
+  align-items: center; */
 }
 
 .deal-card img {
@@ -289,6 +295,8 @@
 
 .deal-info {
   position: absolute;
+  
+  
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -297,7 +305,7 @@
 }
 
 .deal-info h3 {
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-bottom: 8px;
   color: #fff;
 }
@@ -311,11 +319,12 @@
 
 /* Join Section */
 .join-section {
-  /* width: 100%; */
-  width: 1500px;
+    
+  width: 100%;
+  /* width: 1500px; */
   /* height: 70%; */
-  height: 1000px;
-  margin: 80px auto;
+  height: 533px;
+  margin: 30px auto;
   background: url("./assets/news-letter-bg.png") no-repeat center center/cover,
     #e95a08;
   padding: 80px 20px;
@@ -325,7 +334,7 @@
   flex-direction: column;
   color: #fff;
   text-align: center;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 /* new add for responsive image */
