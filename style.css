@@ -282,18 +282,24 @@ body {
 }
 
 /* Flower & Plants Lover Section */
-   * {
+   /* * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-    }
+    } */
 
-    body {
+    /* body {
       font-family: 'Segoe UI', sans-serif;
       background-color: #f8faff;
       padding: 40px;
+    } */
+    .new{
+        display: flex;
+        margin-top: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
     }
-
     .promo-section {
       display: flex;
       background-color: #f8faff;
@@ -301,6 +307,7 @@ body {
       overflow: hidden;
       flex-wrap: wrap;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      /* margin-top: 100px; */
     }
 
     .left-column {
@@ -314,16 +321,20 @@ body {
       height: 100%;
       object-fit: cover;
       display: block;
+      border-radius: 15px;
     }
-
-    .badge {
+     
+    .badge ,.badge_img {
       position: absolute;
-      top: 0;
-      left: 200px;
-      /* width: 80px; */
-      width: 286px;
-      height: 286px;
-      z-index: 2;
+      top: -80px;     /* top: is very inportent to make position */
+      left: 210px;
+      width: 60px;
+      z-index: 1;
+    }
+    
+    .badge_img{
+        width: 300px;  /* to make hide in the midea queari  */
+      height: 300px;
     }
 
     .right-column {
